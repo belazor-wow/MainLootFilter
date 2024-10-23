@@ -1,4 +1,4 @@
-## Interface: 110002
+## Interface: 110005
 ## Title: MainLootFilter
 ## Notes: Filters others' loot from the primary chat frame.
 ## OptionalDeps: _DebugLog
