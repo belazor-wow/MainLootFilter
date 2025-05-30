@@ -4,11 +4,5 @@
     "runtime.version": "Lua 5.1",
     "hint.enable": false,
     "type.weakUnionCheck": true,
-    "diagnostics.globals": [
-        "DAMAGE_TEXT_FONT",
-        "STANDARD_TEXT_FONT",
-        "UNIT_NAME_FONT",
-        "NAMEPLATE_FONT",
-        "NAMEPLATE_SPELLCAST_FONT"
-    ]
+    "diagnostics.globals": []
 }
