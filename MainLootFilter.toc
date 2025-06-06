@@ -1,7 +1,7 @@
 ## Interface: 110105
 ## Title: MainLootFilter
 ## Notes: Filters others' loot from the primary chat frame.
-## OptionalDeps: _DebugLog
+## OptionalDeps: _DebugLog, Chattynator
 ## IconTexture:
 ## Author: Belazor
 ## Version: @project-version@
@@ -9,7 +9,7 @@
 ## Category-deDE: Beute
 ## Category-esES: Botín
 ## Category-esMX: Botín
-## Category-frFR: Butin 
+## Category-frFR: Butin
 ## Category-itIT: Bottino
 ## Category-koKR: 전리품
 ## Category-ptBR: Saque
@@ -18,7 +18,7 @@
 ## Category-zhTW: 戰利品
 ## X-Curse-Project-ID:
 ## X-WoWI-ID:
-## X-Wago-ID: 
+## X-Wago-ID:
 ## X-Source-URL: https://github.com/belazor-wow/MainLootFilter
 ## X-Issues-URL: https://github.com/belazor-wow/MainLootFilter/issues
 

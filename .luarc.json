@@ -4,5 +4,7 @@
     "runtime.version": "Lua 5.1",
     "hint.enable": false,
     "type.weakUnionCheck": true,
-    "diagnostics.globals": []
+    "diagnostics.globals": [
+        "Chattynator"
+    ]
 }
