@@ -3,7 +3,7 @@ local private = select(2, ...) ---@class PrivateNamespace
 if Chattynator then
     local function FilterLoot(data)
         if data.typeInfo.type == "LOOT"
-            and data.typeInfo.player.name ~= ""
+            --and data.typeInfo.player.name ~= ""
             and data.typeInfo.player.name ~= data.recordedBy
         then
             return false
@@ -12,7 +12,7 @@ if Chattynator then
         return true
     end
 
-    Chattynator.API.AddRejectionFilter(FilterLoot, 1, 1)
+    Chattynator.API.AddFilter(FilterLoot, 1, 1)
 else
     ---@param chatFrame Frame
     ---@param event string
