@@ -3,8 +3,10 @@ local private = select(2, ...) ---@class PrivateNamespace
 if Chattynator then
     local function FilterLoot(data)
         if data.typeInfo.type == "LOOT"
-            --and data.typeInfo.player.name ~= ""
-            and data.typeInfo.player.name ~= data.recordedBy
+            and (data.typeInfo.player == nil or (
+                data.typeInfo.player.name ~= ""
+                and data.typeInfo.player.name ~= data.recordedBy
+            ))
         then
             return false
         end
