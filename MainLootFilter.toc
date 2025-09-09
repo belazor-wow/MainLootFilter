@@ -1,4 +1,4 @@
-## Interface: 110200
+## Interface: 
 ## Title: MainLootFilter
 ## Notes: Filters others' loot from the primary chat frame.
 ## OptionalDeps: _DebugLog, Chattynator
