@@ -1,11 +1,13 @@
 local private = select(2, ...) ---@class PrivateNamespace
 
+---@diagnostic disable-next-line: undefined-global
 if Chattynator then
+    local realmName = GetNormalizedRealmName()
     local function FilterLoot(data)
         if data.typeInfo.type == "LOOT"
             and (data.typeInfo.player == nil or (
                 data.typeInfo.player.name ~= ""
-                and data.typeInfo.player.name ~= data.recordedBy
+                and (data.typeInfo.player.name .. "-" .. realmName) ~= data.recordedBy
             ))
         then
             return false
@@ -14,6 +16,7 @@ if Chattynator then
         return true
     end
 
+    ---@diagnostic disable-next-line: undefined-global
     Chattynator.API.AddFilter(FilterLoot, 1, 1)
 else
     ---@param chatFrame Frame
