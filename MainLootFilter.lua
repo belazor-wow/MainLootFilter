@@ -2,8 +2,8 @@ local private = select(2, ...) ---@class PrivateNamespace
 
 ---@diagnostic disable-next-line: undefined-global
 if Chattynator then
-    local realmName = GetNormalizedRealmName()
     local function FilterLoot(data)
+        local realmName = GetNormalizedRealmName()
         if data.typeInfo.type == "LOOT"
             and (data.typeInfo.player == nil or (
                 data.typeInfo.player.name ~= ""
