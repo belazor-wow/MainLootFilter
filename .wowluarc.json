@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TradeSkillMaster/wowlua-ls/main/editors/vscode/wowluarc.schema.json",
+  "flavors": ["retail"],
+  "diagnostics": {
+    "enable": ["need-check-nil"],
+    "disable": ["create-global"]
+  },
+  "globals": {
+    "read": ["Chattynator"],
+    "write": []
+  }
+}
